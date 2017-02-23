@@ -1,0 +1,202 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+.m-t-xs {
+    margin-top: 5px;
+}
+
+.m-t-sm {
+    margin-top: 10px;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+.fa-check-square:before{
+    color:green;
+}
+.page-header{
+    color:#337ab7;
+}
+
+/* Titles - h2 */
+
+
+/* Home - Welcome to Modern Business */
+
+
+/* Home - Portfolio */
+.img-portfolio {
+  box-shadow: 6px 4px 0 0 #337ab7;
+}
+
+
+/* Home - Modern Business Features */
+
+
+/* About - About Modern Business */
+
+
+/* About - Our Customers */
+
+
+/* About - Our Team */
+.our-team {
+    padding: 0 10px;
+}
+
+.our-team .page-header {
+    color: #337ab7;
+    border-color: #337ab7;
+}
+
+.our-team .thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.our-team .team-card .thumbnail {
+    border-color: #337ab7;
+}
+
+.our-team .team-card .name {
+    color: #337ab7;    
+}
+
+@media (min-width: 768px) {
+    .our-team {
+        padding: 0;
+    }
+
+    .our-team .thumbnail-container {
+        flex-wrap: nowrap;
+    }
+
+    .our-team .team-card {
+        margin: 5px;
+    }
+
+    .our-team .team-card:first-child {
+        margin-left: 0;
+    }
+    
+    .our-team .team-card:last-child {
+        margin-right: 0;
+    }
+}
+
+/* About - Related Projects */
+
+
+/* Services - Services Panels */
+
+.panel{width: 30%;float: left;margin-right: 30px;}
+
+.panel-default {
+    border-color: #337ab7;
+}
+
+
+.h4, h4 {
+    font-size: 18px;
+    color: #337ab7;
+}
+
+/* Services - Service List */
+
+
+/* Services - Portfolio */
+
+
+/* Portfolio - Portfolio Modern Business */
+
+
+/* Portfolio - Our Products */
